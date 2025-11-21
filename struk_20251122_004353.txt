@@ -1,0 +1,11 @@
+===================================
+            STRUK BELANJA
+===================================
+Sepatu Adidas        Rp750,000
+-----------------------------------
+Total Bayar      : Rp750,000
+Uang Dibayar     : Rp750,000
+Kembalian        : Rp0
+-----------------------------------
+Tanggal: 2025-11-22 00:43:53
+Terima kasih telah berbelanja!

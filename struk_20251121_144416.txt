@@ -1,0 +1,17 @@
+==============================
+         STRUK BELANJA
+==============================
+- Kaos Lacoste         Rp250,000
+- Celana Rucas         Rp400,000
+- Kaos Lacoste         Rp250,000
+- Sepatu Adidas        Rp750,000
+- Celana Rucas         Rp400,000
+------------------------------
+Total Belanja          Rp2,050,000
+Diskon (50.0%)         -Rp1,025,000
+Total Bayar            Rp1,025,000
+Uang Dibayar           Rp50,000,000
+Kembalian              Rp48,975,000
+==============================
+Tanggal: 2025-11-21 14:44:16
+Terima kasih telah berbelanja!

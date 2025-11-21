@@ -1,0 +1,11 @@
+==============================
+         STRUK BELANJA
+==============================
+- Kaos Lacoste         Rp250,000
+------------------------------
+Total Bayar            Rp250,000
+Uang Dibayar           Rp2,500,000
+Kembalian              Rp2,250,000
+==============================
+Tanggal: 2025-11-22 00:37:15
+Terima kasih telah berbelanja!
