@@ -1,14 +1,12 @@
 from utils import clear_screen, tampilkan_header
 from data import users
-from status import login_user, logout_user
 
 while True:
     clear_screen()
     tampilkan_header()
     print("1. Login")
     print("2. Register")
-    print("3. Belanja Tanpa Login")
-    print("4. Keluar")
+    print("3. Keluar")
     pilih = input("Pilih menu: ")
 
     if pilih == "1":
@@ -20,9 +18,6 @@ while True:
         if username in users and users[username]["password"] == password:
             role = users[username]["role"]
             print(f"Login berhasil sebagai {role.upper()}!")
-            
-            login_user(username)
-            
             input("Tekan Enter untuk melanjutkan...")
 
             if role == "admin":
@@ -31,8 +26,6 @@ while True:
             else:
                 from user import menu_user
                 menu_user(username)
-            
-            logout_user()
         else:
             print("Login gagal! Username atau password salah.")
             input("\nTekan Enter untuk kembali...")
@@ -54,14 +47,9 @@ while True:
 
     elif pilih == "3":
         clear_screen()
-        from kasir import layanan_kasir
-        layanan_kasir(is_member_default=False)
-
-    elif pilih == "4":
-        clear_screen()
         print("Terima kasih telah mengunjungi Toko Baju Brand!")
         break
 
     else:
         print("Pilihan tidak valid!")
-        input("\nTekan Enter untuk kembali...")
+        input("\nTekan Enter untuk kembali...")
